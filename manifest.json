@@ -3,14 +3,16 @@
         "scripts": ["background.js"]
       },
     "content_scripts":[{
-        "matches":["*"],
+        "matches":["<all_urls>"],
         "js":["content.js"]
     }],
+    "permissions": [
+      "downloads", "tabs"
+    ],
     "manifest_version": 2,
-    "name": "Change This",
+    "name": "Citrix Logon",
     "version": "1",
-  
-    "description": "A plain text description",
+    "description": "This plugin will keep citrix logged on.",
     "icons": {},
     "file_system_provider_capabilities": {
       "configurable": true,
@@ -18,9 +20,7 @@
       "source": "network"
     },
     "key": "1234",
-    "permissions": ["tabs"],
     "short_name": "change this ",
    "update_url": "http://path/to/updateInfo.xml",
     "version_name": "alpha"
-    
   }
