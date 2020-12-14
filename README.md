@@ -12,3 +12,5 @@ Chrome extension installation instructions:
 7. Browse to the location of the extracted zip file and open it.
 8. Your extension will be loaded.
 9. Go to the VDI url and enjoy.
+
+Watch this video for installation instructions of an unpacked chrome extension.
